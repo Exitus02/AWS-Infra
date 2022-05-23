@@ -27,6 +27,7 @@ CloudFront uses SSDs which are encrypted for edge location points of presence (P
 Function code and configuration in CloudFront Functions is always stored in an encrypted format on the encrypted SSDs on the edge location POPs, and in other storage locations used by CloudFront.
 
 •	Enabling services to be self-recovering will reduce staff time spent on-call.
+
 I did not put any self recovery in place with cloudfront and S3 bucket , Amazon Cloudwatch policy implementation should handle that in the future.
 
 Some considerations about hosting a static website with AWS S3 bucket and Cloudfront are below:
